@@ -38,7 +38,7 @@ public class Loops{
             System.out.printf("Element value at index [%d] is %s \n", i, colors[i]);
         }
 
-        // Regular for loop to iterate through string array
+        // Enhanced for loop to iterate through string array
         System.out.println("\n ####### ENHANCED FOR LOOP OVER ARRAY ########");
         for(String color: colors){
             System.out.printf("Element value  is %s \n",color);
