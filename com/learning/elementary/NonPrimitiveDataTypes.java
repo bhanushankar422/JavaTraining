@@ -26,7 +26,17 @@ public class NonPrimitiveDataTypes {
 
         System.out.println(c);
         System.out.println(c[0] + ", " + c[1] + ", " + c[2]);
+
+        // Enums
+        System.out.println("Enum tuesday: "+ Weekdays.TUESDAY);
     }
     
+    enum Weekdays{
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY
+    }
 
 }
