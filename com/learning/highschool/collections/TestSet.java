@@ -27,7 +27,7 @@ public class TestSet {
         System.out.println("****** Iterator **********");
         Iterator<Integer> itr = uniqueNumbers.iterator();
         while(itr.hasNext()){
-            Integer num = (Integer)itr.next();
+            Integer num = itr.next();
             System.out.print(num);
             System.out.print(", ");
         }

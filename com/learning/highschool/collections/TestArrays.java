@@ -35,9 +35,9 @@ public class TestArrays {
 
         // Iterator
         System.out.println("****** Iterator **********");
-        Iterator itr = alphabets.iterator();
+        Iterator<String> itr = alphabets.iterator();
         while(itr.hasNext()){
-            String alphabet = (String)itr.next();
+            String alphabet = itr.next();
             System.out.print(alphabet);
             System.out.print(", ");
         }
