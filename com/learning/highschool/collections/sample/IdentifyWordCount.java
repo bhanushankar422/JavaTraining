@@ -18,7 +18,7 @@ public class IdentifyWordCount {
                 wordCount.put(word.toLowerCase(), 1);
             }else{
                 int count = wordCount.get(word.toLowerCase()) + 1;
-                wordCount.put(word, count);
+                wordCount.put(word.toLowerCase(), count);
             }
         }
 
