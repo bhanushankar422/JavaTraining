@@ -2,12 +2,16 @@ package com.learning.middleschool.inheritance;
 
 public class TestInheritance {
     public static void main(String[] args) {
+        Parent parent = new Parent();
         Child1 child1 = new Child1();
         Child2 child2 = new Child2();
         Child3 child3 = new Child3();
 
         System.out.println("****************************");
-        
+        parent.extendableProtectedMethod("bhanu");
+        parent.extendablePublicMethod("bhanu");
+        System.out.println("****************************");
+
         child1.child1Method("Bhanu");
         child1.extendableProtectedMethod("Bhanu");
         child1.extendablePublicMethod("Bhanu");
