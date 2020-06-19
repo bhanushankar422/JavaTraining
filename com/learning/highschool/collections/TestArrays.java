@@ -11,6 +11,11 @@ public class TestArrays {
         alphabets.add("B");
         alphabets.add("C");
         alphabets.add("D");
+        alphabets.add("C");
+        alphabets.add("D");
+
+        //Directly printing array
+        System.out.println(alphabets);
 
         //Regular for loop to iterate through the array list
         System.out.println("****** Regular for loop **********");
